@@ -1,18 +1,3 @@
-/**
- * Creates 1 second WAV files by capturing audio from user's microphone
- * Authors: Andrew Jaswa, Shawn Hymel
- * Date: June 27, 2020
- * 
- * Simple recorder demo. Press "record" button to create a ~1 second recording
- * from user's microphone.  Recording appears to let users listen to it, save
- * it locally to their computer, or upload it to the server (in directory that
- * served this page).
- * 
- * Based on: https://github.com/addpipe/simple-recorderjs-demo
- * Button handling code from: https://stackoverflow.com/questions/23835150/javascript-event-listener-for-multiple-buttons-with-same-class-name/23835338
- */
-
-// webkitURL is deprecated but nevertheless
 URL = window.URL || window.webkitURL;
 
 var gumStream; 						//stream from getUserMedia()
